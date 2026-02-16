@@ -1,4 +1,4 @@
-import { Clock, Github, Heart } from 'lucide-react';
+import { Clock, Github } from 'lucide-react';
 
 const footerLinks = {
   product: [
