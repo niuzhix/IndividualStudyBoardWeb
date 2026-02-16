@@ -7,13 +7,13 @@ const footerLinks = {
     { label: '更新日志', href: '#' },
   ],
   resources: [
-    { label: '使用文档', href: '#' },
+    { label: '帮助文档', href: '#' },
     { label: '常见问题', href: '#' },
-    { label: '反馈建议', href: '#' },
+    { label: '联系我们', href: '#' },
   ],
   community: [
-    { label: 'GitHub', href: 'https://github.com', external: true },
-    { label: '讨论区', href: '#', external: true },
+    { label: 'GitHub', href: 'https://github.com/niuzhix/IndividualStudyBoard', external: true },
+    { label: '讨论区', href: '#', external: false },
   ],
 };
 
@@ -97,7 +97,7 @@ export function Footer() {
           </p>
           <div className="flex items-center gap-4 text-sm text-muted-foreground">
             <span className="flex items-center gap-1">
-              用 <Heart className="w-4 h-4 text-red-500 fill-red-500" /> 制作
+              用 WinUI3 制作
             </span>
             <span>|</span>
             <span>MIT License</span>
